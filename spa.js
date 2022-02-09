@@ -39,7 +39,7 @@ angular.module('myapp',['ngRoute'])
 })
 .controller("studentctrl",function($scope,$http)
 {
-    $http.get('https://sandra-1223.github.io/LAB-8_Accessing-JSON-file-remotely-using-Angular-JS-with-Filters/data.json') 
+    $http.get('https://sandra-1223.github.io/LAB-9/student.json') 
     .success(function(response)
     {
         $scope.students=response.records;
