@@ -24,7 +24,7 @@ angular.module('myapp',['ngRoute'])
 })
 .controller("homectrl",function($scope,$routeParams)
 {
-    $scope.message="Home oooooooooooPage"
+    $scope.message="Welcome to Christ University!"
     if($routeParams.first&&$routeParams.last)
     {
         $scope.person={
